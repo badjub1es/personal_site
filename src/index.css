@@ -24,6 +24,11 @@ code {
   src:  url('./fonts/LandasansUltraLight-qZ080.otf') format('woff');
 }
 
+@font-face {
+  font-family: 'PixelColeco';
+  src:  url('./fonts/Pixel-Coleco.otf') format('woff');
+}
+
 html {
   margin: 0px;
   padding: 0px;

@@ -11,12 +11,13 @@
 .link-container {
     color: #FFFF02;
     display: flex;
-    font-family: "Landasans";
-    font-size: 25px;
+    font-family: "PixelColeco";
+    font-size: 20px;
 }
 
 .link {
     margin-right: 25px;
+    cursor: pointer;
 }
 
 .body-container {

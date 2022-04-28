@@ -7,17 +7,18 @@ const NavBar = () => {
                 <div>
                     <div style={{marginLeft: "25px"}}>
                         <img
+                            alt="logo"
                             style={{height: "75px", width: "85px"}}
                             src={require('./style/images/favicon.PNG')}/>
                     </div>
                     {/* logo */}
                 </div>
                 <div className="link-container">
-                    <div className='link'>About</div>
-                    <div className='link'>Experience</div>
-                    <div className='link'>Projects</div>
-                    <div className='link'>Music</div>
-                    <div className='link'>Contact</div>
+                    <div className='link'>About //</div>
+                    <div className='link'>Experience //</div>
+                    <div className='link'>Projects // </div>
+                    <div className='link'>Music //</div>
+                    <div className='link'>Contact // </div>
                     <div className='link'>Resume</div>
                 </div>
             </div>
