@@ -13,3 +13,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Landasans';
+  src:  url('./fonts/LandasansMedium-ALJ6m.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'LandasansLight';
+  src:  url('./fonts/LandasansUltraLight-qZ080.otf') format('woff');
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
