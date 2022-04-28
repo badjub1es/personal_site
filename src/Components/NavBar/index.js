@@ -13,6 +13,7 @@ const NavBar = () => {
                             style={{ height: "85px", width: "85px", cursor: "pointer" }}
                             onMouseEnter={(e) => e.target.src = require('./style/images/anim.gif')}
                             onMouseLeave={(e) => e.target.src = require('./style/images/img.PNG')}
+                            onClick={() => window.location.reload(false)}
                             src={require('./style/images/img.PNG')} />
                     </div>
                 </div>
