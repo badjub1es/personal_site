@@ -31,7 +31,10 @@ const NavBar = () => {
                 </div>
             </div>
             <div className='body-container'>
-                yes
+                <div className='sidebar'>
+                    <p style={{color: "white"}}>link</p>
+                    <p style={{color: "white"}}>link</p>
+                </div>
             </div>
 
         </div>
