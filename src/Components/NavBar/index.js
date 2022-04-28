@@ -14,12 +14,12 @@ const NavBar = () => {
                     {/* logo */}
                 </div>
                 <div className="link-container">
-                    <div className='link'>About //</div>
-                    <div className='link'>Experience //</div>
-                    <div className='link'>Projects // </div>
-                    <div className='link'>Music //</div>
-                    <div className='link'>Contact // </div>
-                    <div className='link'>Resume</div>
+                    <div className='link fade-in'>About //</div>
+                    <div className='link fade-in2'>Experience //</div>
+                    <div className='link fade-in3'>Projects // </div>
+                    <div className='link fade-in4'>Music //</div>
+                    <div className='link fade-in5'>Contact // </div>
+                    <div className='link fade-in6'>Resume</div>
                 </div>
             </div>
             <div className='body-container'>
