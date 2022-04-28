@@ -20,7 +20,6 @@ const NavBar = () => {
                             style={{height: "85px", width: "85px"}}
                             src={endEvent ? require('./style/images/img.PNG') : require('./style/images/anim.gif')}/>
                     </div>
-                    {/* logo */}
                 </div>
                 <div className="link-container">
                     <div className='link fade-in'>1.About //</div>
