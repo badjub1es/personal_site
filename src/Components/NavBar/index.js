@@ -22,7 +22,11 @@ const NavBar = () => {
                     <div className='link fade-in3'>3.Projects // </div>
                     <div className='link fade-in4'>4.Music //</div>
                     <div className='link fade-in5'>5.Contact // </div>
-                    <div className='link fade-in6'>6.Resume</div>
+                    <div className='link fade-in6'>
+                        <a href='https://tonesbucket.s3.amazonaws.com/beach2.jpg' download>
+                            6.Resume
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className='body-container'>
