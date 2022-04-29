@@ -23,7 +23,7 @@ const NavBar = () => {
                     <div className='link fade-in4'>4.Music //</div>
                     <div className='link fade-in5'>5.Contact // </div>
                     <div className='link fade-in6'>
-                        <a href='https://tonesbucket.s3.amazonaws.com/beach2.jpg' download>
+                        <a href='https://tonesbucket.s3.amazonaws.com/Arellano+Anthony+Resume+(3).pdf' download target={'_blank'}>
                             6.Resume
                         </a>
                     </div>
