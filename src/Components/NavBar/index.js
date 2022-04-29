@@ -136,16 +136,24 @@ const NavBar = () => {
                     </div>
                 </div>
                 <div ref={ref2} className='body-section'>
-                    experience
+                    <div style={{fontSize: "45px"}}>
+                        2. Experience
+                    </div>
                 </div>
                 <div ref={ref3} className='body-section'>
-                    projects
+                    <div style={{fontSize: "45px"}}>
+                        3. Projects
+                    </div>
                 </div>
                 <div ref={ref4} className='body-section'>
-                    music
+                    <div style={{fontSize: "45px"}}>
+                        4. Music
+                    </div>
                 </div>
                 <div ref={ref5} className='body-section'>
-                    contact
+                    <div style={{fontSize: "45px"}}>
+                        5. Contact Me
+                    </div>
                 </div>
             </div>
         </div>
