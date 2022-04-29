@@ -41,7 +41,7 @@ const NavBar = () => {
                         className='link fade-in'>1.About //</div>
                     <div
                         onClick={() => ref2.current.scrollIntoView()}
-                        className='link fade-in2'>2.Experience //</div>
+                        className='link fade-in2'>2.Skills //</div>
                     <div
                         onClick={() => ref3.current.scrollIntoView()}
                         className='link fade-in3'>3.Projects // </div>
@@ -137,7 +137,45 @@ const NavBar = () => {
                 </div>
                 <div ref={ref2} className='body-section'>
                     <div style={{fontSize: "45px"}}>
-                        2. Experience
+                        2. Skills
+                    </div>
+                    <div className='technologies-container'>
+                        <div className='tech-card'>
+                            <img className='tech-image' src={require('./style/images/js.png')}/>
+                            <text>Javascript</text>
+                        </div>
+                        <div className='tech-card'>
+                            <img className='tech-image' src={require('./style/images/react.png')}/>
+                            <text>React</text>
+                        </div>
+                        <div className='tech-card'>
+                            <img className='tech-image' src={require('./style/images/redux.png')}/>
+                            <text>Redux</text>
+                        </div>
+                        <div className='tech-card'>
+                            <img className='tech-image' src={require('./style/images/html.png')}/>
+                            <text>HTML5</text>
+                        </div>
+                        <div className='tech-card'>
+                            <img className='tech-image' src={require('./style/images/css.png')}/>
+                            <text>CSS3</text>
+                        </div>
+                        <div className='tech-card'>
+                            <img className='tech-image' src={require('./style/images/express.png')}/>
+                            <text>Express.js</text>
+                        </div>
+                        <div className='tech-card'>
+                            <img className='tech-image' src={require('./style/images/flask.png')}/>
+                            <text>Flask</text>
+                        </div>
+                        <div className='tech-card'>
+                            <img className='tech-image' src={require('./style/images/postgres.png')}/>
+                            <text>postgreSQL</text>
+                        </div>
+                        <div className='tech-card'>
+                            <img className='tech-image' src={require('./style/images/py.png')}/>
+                            <text>Python</text>
+                        </div>
                     </div>
                 </div>
                 <div ref={ref3} className='body-section'>
