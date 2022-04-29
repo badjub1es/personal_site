@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './style/navbar.css';
 
 const NavBar = () => {
@@ -28,25 +27,23 @@ const NavBar = () => {
             </div>
             <div className='body-container'>
                 <div className='sidebar'>
-                    <Link to={{ pathname: `https://github.com/badjub1es` }} target="_blank">
-                        <img
-                            alt="github"
-                            className='image-link fade-in4'
-                            src={require('./style/images/github.png')} />
-                    </Link>
-                    <Link to={{ pathname: `https://www.linkedin.com/in/antarellano/` }} target="_blank">
-                        <img
-                            alt="linkedin"
-                            className='image-link fade-in5'
-                            src={require('./style/images/linkedin.png')} />
-                    </Link>
-                    <Link to={{ pathname: `https://www.instagram.com/lowpotassium/` }} target="_blank">
-                        <img
-                            alt="instagram"
-                            style={{ marginBottom: "70px" }}
-                            className='image-link fade-in6'
-                            src={require('./style/images/instagram.png')} />
-                    </Link>
+                    <img
+                        alt="github"
+                        className='image-link fade-in4'
+                        onClick={() => window.open('https://github.com/badjub1es', '_blank')}
+                        src={require('./style/images/github.png')} />
+                    <img
+                        alt="linkedin"
+                        onClick={() => window.open('https://www.linkedin.com/in/antarellano', '_blank')}
+                        className='image-link fade-in5'
+                        src={require('./style/images/linkedin.png')} />
+                    <img
+                        alt="instagram"
+                        onClick={() => window.open('https://www.instagram.com/lowpotassium', '_blank')}
+                        style={{ marginBottom: "70px" }}
+                        className='image-link fade-in6'
+                        src={require('./style/images/instagram.png')} />
+
 
                 </div>
             </div>
