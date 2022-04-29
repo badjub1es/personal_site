@@ -1,12 +1,16 @@
 .navbar-container {
-    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+    width: 100%;
     display: flex;
     background-color: black;
     align-items: center;
     justify-content: space-between;
     padding: 4px;
     /* border-bottom: 1px solid #FFFF02; */
-    height: 7vh;
+    height: 65px;
+    overflow: hidden;
 }
 
 .navbar-container:before {
@@ -42,11 +46,12 @@
 }
 
 .sidebar {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    top: 75px;
     left: 0px;
     height: 92.2vh;
     border-right: 1px solid #FFFF02;
@@ -93,8 +98,12 @@
 }
 
 .body-container {
-    height: 92.2vh;
+    height: auto;
+    position: relative;
     background-color: rgb(12, 12, 12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fade-in {

@@ -3,7 +3,7 @@ import NavBar from "../NavBar";
 
 const HomePage = () => {
 
-const [loaded, setLoaded] = useState(true);
+const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {

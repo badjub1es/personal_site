@@ -1,6 +1,22 @@
+import { useRef, useEffect, useState } from 'react';
+import Typewriter from 'typewriter-effect'
 import './style/navbar.css';
+import './style/body.css';
+
 
 const NavBar = () => {
+    const ref1 = useRef(null);
+    const ref2 = useRef(null);
+    const [next, setNext] = useState(false);
+    const [next2, setNext2] = useState(false);
+    useEffect(() => {
+        setTimeout(() => {
+            setNext(() => true)
+        }, 4500)
+        setTimeout(() => {
+            setNext2(() => true)
+        }, 5000)
+    }, [])
 
     return (
         <div>
@@ -17,8 +33,12 @@ const NavBar = () => {
                     </div>
                 </div>
                 <div className="link-container">
-                    <div className='link fade-in'>1.About //</div>
-                    <div className='link fade-in2'>2.Experience //</div>
+                    <div
+                        onClick={() => ref1.current.scrollIntoView()}
+                        className='link fade-in'>1.About //</div>
+                    <div
+                        onClick={() => ref2.current.scrollIntoView()}
+                        className='link fade-in2'>2.Experience //</div>
                     <div className='link fade-in3'>3.Projects // </div>
                     <div className='link fade-in4'>4.Music //</div>
                     <div className='link fade-in5'>5.Contact // </div>
@@ -47,10 +67,43 @@ const NavBar = () => {
                         style={{ marginBottom: "70px" }}
                         className='image-link fade-in6'
                         src={require('./style/images/instagram.png')} />
-
-
                 </div>
+                <div ref={ref1} className='body-section'>
+                    <div style={{fontSize: "30px"}}>
+                        <Typewriter
+                            changeDelay={"1s"}
+                            onInit={(typewriter) => {
+                                typewriter
+                                    .typeString("> Hi! My creator's name is")
+                                    .stop()
+                                    .start()
+                            }}>
+
+                        </Typewriter>
+                    </div>
+                    <div
+                        style={{fontSize: "60px", color: "#FFFF02"}}
+                        className={next ? 'fade-in' : 'hidden'}>
+                         Anthony Arellano
+                    </div>
+                    <text
+                        style={{fontSize: "30px", marginTop: "10px"}}
+                        className={next2 ? 'fade-in2' : 'hidden'}>
+                        I am a software engineer who builds <br/>
+                        full stack web applications.
+
+                    </text>
+                </div>
+                <div ref={ref2} className='body-section'>Experience</div>
             </div>
+                        {/* <img
+                            style={{
+                                width: "300px",
+                                height: "300px",
+                                objectFit: "cover",
+                                marginTop: "20px"
+                            }}
+                            src={require('./style/images/anthonypic.jpg')}/> */}
 
         </div>
     )
