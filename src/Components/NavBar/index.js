@@ -10,7 +10,6 @@ const NavBar = () => {
     const [next, setNext] = useState(false);
     const [next2, setNext2] = useState(false);
     useEffect(() => {
-        ref1.current.scrollIntoView()
         setTimeout(() => {
             setNext(() => true)
         }, 4500)
