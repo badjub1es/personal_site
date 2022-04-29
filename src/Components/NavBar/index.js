@@ -10,6 +10,7 @@ const NavBar = () => {
     const [next, setNext] = useState(false);
     const [next2, setNext2] = useState(false);
     useEffect(() => {
+        ref1.current.scrollIntoView()
         setTimeout(() => {
             setNext(() => true)
         }, 4500)
@@ -68,8 +69,8 @@ const NavBar = () => {
                         className='image-link fade-in6'
                         src={require('./style/images/instagram.png')} />
                 </div>
-                <div ref={ref1} className='body-section'>
-                    <div style={{fontSize: "30px"}}>
+                <div className='body-section'>
+                    <div style={{fontSize: "45px"}}>
                         <Typewriter
                             changeDelay={"1s"}
                             onInit={(typewriter) => {
@@ -82,29 +83,51 @@ const NavBar = () => {
                         </Typewriter>
                     </div>
                     <div
-                        style={{fontSize: "60px", color: "#FFFF02"}}
+                        style={{fontSize: "75px", color: "#FFFF02"}}
                         className={next ? 'fade-in' : 'hidden'}>
                          Anthony Arellano
                     </div>
                     <text
-                        style={{fontSize: "30px", marginTop: "10px"}}
+                        style={{fontSize: "45px", marginTop: "10px"}}
                         className={next2 ? 'fade-in2' : 'hidden'}>
                         I am a software engineer who builds <br/>
                         full stack web applications.
 
                     </text>
                 </div>
-                <div ref={ref2} className='body-section'>Experience</div>
-            </div>
-                        {/* <img
-                            style={{
-                                width: "300px",
-                                height: "300px",
-                                objectFit: "cover",
-                                marginTop: "20px"
-                            }}
-                            src={require('./style/images/anthonypic.jpg')}/> */}
+                <div ref={ref1} className='body-section'>
+                    <div style={{fontSize: "45px"}}>
+                        1. About me
+                    </div>
+                    <div style={{display: "flex", marginTop: "30px", fontSize: "20px"}}>
+                        <div style={{marginRight: "15px"}}>
+                            Software Engineer with a love for building full stack applications.
 
+                            My current project Wanderer <br/> is an AirBnB inspired application where I am exploring the Google Maps API
+                            in order to  <br/> provide easy location validation as well as display a visually compelling interface to the user. <br/> <br/>
+
+                            In my free time I am the main song-writer, singer, and rhythm guitar player for my band Coco Blue. <br/>
+                            We've recently released our first single "Wash" and are actively working towards recording our next <br/>
+                            extended release in the coming months. <br/> <br/>
+
+                            Being an artist first has allowed me to join both halves of my brain and produce projects that are <br/> not only
+                            technologically sound, but also engage the user through visually stunning and intuitive <br/> user interfaces.
+                            Always open to connect, chat, and discuss interests!
+                        </div>
+                        <div>
+                            <img
+                                onMouseEnter={(e) => e.target.src = require('./style/images/anthonypic.jpg')}
+                                onMouseLeave={(e) => e.target.src = require('./style/images/anthonyblur.jpg')}
+                                style={{
+                                    width: "300px",
+                                    height: "300px",
+                                    objectFit: "cover"
+                                }}
+                                src={require('./style/images/anthonyblur.jpg')}/>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 };
