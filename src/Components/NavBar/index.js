@@ -7,6 +7,9 @@ import './style/body.css';
 const NavBar = () => {
     const ref1 = useRef(null);
     const ref2 = useRef(null);
+    const ref3 = useRef(null);
+    const ref4 = useRef(null);
+    const ref5 = useRef(null);
     const [next, setNext] = useState(false);
     const [next2, setNext2] = useState(false);
     useEffect(() => {
@@ -39,9 +42,15 @@ const NavBar = () => {
                     <div
                         onClick={() => ref2.current.scrollIntoView()}
                         className='link fade-in2'>2.Experience //</div>
-                    <div className='link fade-in3'>3.Projects // </div>
-                    <div className='link fade-in4'>4.Music //</div>
-                    <div className='link fade-in5'>5.Contact // </div>
+                    <div
+                        onClick={() => ref3.current.scrollIntoView()}
+                        className='link fade-in3'>3.Projects // </div>
+                    <div
+                        onClick={() => ref4.current.scrollIntoView()}
+                        className='link fade-in4'>4.Music //</div>
+                    <div
+                        onClick={() => ref5.current.scrollIntoView()}
+                        className='link fade-in5'>5.Contact // </div>
                     <div className='link fade-in6'>
                         <a href='https://tonesbucket.s3.amazonaws.com/Arellano+Anthony+Resume+(3).pdf' download target={'_blank'}>
                             6.Resume
@@ -125,6 +134,18 @@ const NavBar = () => {
                                 src={require('./style/images/anthonyblur.jpg')}/>
                         </div>
                     </div>
+                </div>
+                <div ref={ref2} className='body-section'>
+                    experience
+                </div>
+                <div ref={ref3} className='body-section'>
+                    projects
+                </div>
+                <div ref={ref4} className='body-section'>
+                    music
+                </div>
+                <div ref={ref5} className='body-section'>
+                    contact
                 </div>
             </div>
         </div>
