@@ -100,13 +100,13 @@ const NavBar = () => {
                         className={next ? 'fade-in' : 'hidden'}>
                          Anthony Arellano
                     </div>
-                    <text
+                    <div
                         style={{fontSize: "45px", marginTop: "10px", textAlign: "center"}}
                         className={next2 ? 'fade-in2' : 'hidden'}>
                         I am a software engineer who builds <br/>
                         full stack web applications.
 
-                    </text>
+                    </div>
                 </div>
                 <div ref={ref1} className='body-section'>
                     <div style={{fontSize: "45px", color: "#FFFF02"}}>
@@ -147,39 +147,39 @@ const NavBar = () => {
                     <div className='technologies-container'>
                         <div className='tech-card'>
                             <img alt="js" className='tech-image' src={require('./style/images/js.png')}/>
-                            <text>Javascript</text>
+                            <div>Javascript</div>
                         </div>
                         <div className='tech-card'>
                             <img alt="react" className='tech-image' src={require('./style/images/react.png')}/>
-                            <text>React</text>
+                            <div>React</div>
                         </div>
                         <div className='tech-card'>
                             <img alt="redux" className='tech-image' src={require('./style/images/redux.png')}/>
-                            <text>Redux</text>
+                            <div>Redux</div>
                         </div>
                         <div className='tech-card'>
                             <img alt="html5" className='tech-image' src={require('./style/images/html.png')}/>
-                            <text>HTML5</text>
+                            <div>HTML5</div>
                         </div>
                         <div className='tech-card'>
                             <img alt="css3" className='tech-image' src={require('./style/images/css.png')}/>
-                            <text>CSS3</text>
+                            <div>CSS3</div>
                         </div>
                         <div className='tech-card'>
                             <img alt="express" className='tech-image' src={require('./style/images/express.png')}/>
-                            <text>Express.js</text>
+                            <div>Express.js</div>
                         </div>
                         <div className='tech-card'>
                             <img alt="flask" className='tech-image' src={require('./style/images/flask.png')}/>
-                            <text>Flask</text>
+                            <div>Flask</div>
                         </div>
                         <div className='tech-card'>
                             <img alt="psql" className='tech-image' src={require('./style/images/postgres.png')}/>
-                            <text>postgreSQL</text>
+                            <div>postgreSQL</div>
                         </div>
                         <div className='tech-card'>
                             <img alt="python" className='tech-image' src={require('./style/images/py.png')}/>
-                            <text>Python</text>
+                            <div>Python</div>
                         </div>
                     </div>
                 </div>
@@ -213,8 +213,8 @@ const NavBar = () => {
                         4. My Music
                     </div>
                     <div style={{display: "flex", marginTop: "30px", gap: "25px"}}>
-                        <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/album/6EvvE9zAdYjeo2hvwpLDvi?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                        <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/6XnNzfqf8ei1a3YRQdZ9n6?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                        <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/album/6EvvE9zAdYjeo2hvwpLDvi?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                        <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/6XnNzfqf8ei1a3YRQdZ9n6?utm_source=generator" width="100%" height="380" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     </div>
                 </div>
                 <div ref={ref5} className='body-section'>
