@@ -2,6 +2,7 @@ import { useRef, useEffect, useState } from 'react';
 import Typewriter from 'typewriter-effect'
 import './style/navbar.css';
 import './style/body.css';
+import ProjectCard from '../ProjectCard';
 
 
 const NavBar = () => {
@@ -182,10 +183,25 @@ const NavBar = () => {
                     <div style={{fontSize: "45px", color: "#FFFF02"}}>
                         3. Projects
                     </div>
-                    <div className='projects-container'>
-                        <div><a href="https://wanderer-py.herokuapp.com">hi</a>hi</div>
-                        <div></div>
-                        <div></div>
+                    <div style={{display: "flex", gap: "25px"}}>
+                        <ProjectCard
+                            title={"Wanderer"}
+                            img={"https://tonesbucket.s3.amazonaws.com/Capture.PNG"}
+                            description={"An AirBnb inspired application built with React, Redux, Flask, Google Maps API, AWS S3, and postgreSQL."}
+                            url={"https://wanderer-py.herokuapp.com"}
+                            repo={"https://github.com/badjub1es/Wanderer"}/>
+                        <ProjectCard
+                            title={"Soundgarden"}
+                            img={"https://tonesbucket.s3.amazonaws.com/Capture2.PNG"}
+                            description={"Gathering inspiration from Spotify and Soundcloud, Soundgarden is a music playing application aimed at promoting aspiring local artists."}
+                            url={"https://sound-garden.herokuapp.com"}
+                            repo={"https://github.com/badjub1es/SoundGarden"}/>
+                        <ProjectCard
+                            title={"QuickStarter"}
+                            img={"https://tonesbucket.s3.amazonaws.com/Capture3.PNG"}
+                            description={"A full-stack Kickstarter clone built with React, Redux, Flask, SQLAlchemy, and postgreSQL."}
+                            url={"https://quickstarter-314.herokuapp.com"}
+                            repo={"https://github.com/iedwards314/QuickStarter"}/>
                     </div>
                 </div>
                 <div ref={ref4} className='body-section'>
