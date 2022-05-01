@@ -101,7 +101,7 @@ const NavBar = () => {
                          Anthony Arellano
                     </div>
                     <text
-                        style={{fontSize: "45px", marginTop: "10px"}}
+                        style={{fontSize: "45px", marginTop: "10px", textAlign: "center"}}
                         className={next2 ? 'fade-in2' : 'hidden'}>
                         I am a software engineer who builds <br/>
                         full stack web applications.
