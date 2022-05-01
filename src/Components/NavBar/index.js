@@ -141,39 +141,39 @@ const NavBar = () => {
                     </div>
                     <div className='technologies-container'>
                         <div className='tech-card'>
-                            <img className='tech-image' src={require('./style/images/js.png')}/>
+                            <img alt="js" className='tech-image' src={require('./style/images/js.png')}/>
                             <text>Javascript</text>
                         </div>
                         <div className='tech-card'>
-                            <img className='tech-image' src={require('./style/images/react.png')}/>
+                            <img alt="react" className='tech-image' src={require('./style/images/react.png')}/>
                             <text>React</text>
                         </div>
                         <div className='tech-card'>
-                            <img className='tech-image' src={require('./style/images/redux.png')}/>
+                            <img alt="redux" className='tech-image' src={require('./style/images/redux.png')}/>
                             <text>Redux</text>
                         </div>
                         <div className='tech-card'>
-                            <img className='tech-image' src={require('./style/images/html.png')}/>
+                            <img alt="html5" className='tech-image' src={require('./style/images/html.png')}/>
                             <text>HTML5</text>
                         </div>
                         <div className='tech-card'>
-                            <img className='tech-image' src={require('./style/images/css.png')}/>
+                            <img alt="css3" className='tech-image' src={require('./style/images/css.png')}/>
                             <text>CSS3</text>
                         </div>
                         <div className='tech-card'>
-                            <img className='tech-image' src={require('./style/images/express.png')}/>
+                            <img alt="express" className='tech-image' src={require('./style/images/express.png')}/>
                             <text>Express.js</text>
                         </div>
                         <div className='tech-card'>
-                            <img className='tech-image' src={require('./style/images/flask.png')}/>
+                            <img alt="flask" className='tech-image' src={require('./style/images/flask.png')}/>
                             <text>Flask</text>
                         </div>
                         <div className='tech-card'>
-                            <img className='tech-image' src={require('./style/images/postgres.png')}/>
+                            <img alt="psql" className='tech-image' src={require('./style/images/postgres.png')}/>
                             <text>postgreSQL</text>
                         </div>
                         <div className='tech-card'>
-                            <img className='tech-image' src={require('./style/images/py.png')}/>
+                            <img alt="python" className='tech-image' src={require('./style/images/py.png')}/>
                             <text>Python</text>
                         </div>
                     </div>
