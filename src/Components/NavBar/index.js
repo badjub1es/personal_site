@@ -210,7 +210,11 @@ const NavBar = () => {
                 </div>
                 <div ref={ref4} className='body-section'>
                     <div style={{fontSize: "45px", color: "#FFFF02"}}>
-                        4. Music
+                        4. My Music
+                    </div>
+                    <div style={{display: "flex", marginTop: "30px", gap: "25px"}}>
+                        <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/album/6EvvE9zAdYjeo2hvwpLDvi?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                        <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/6XnNzfqf8ei1a3YRQdZ9n6?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     </div>
                 </div>
                 <div ref={ref5} className='body-section'>
