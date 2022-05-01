@@ -104,11 +104,11 @@ const NavBar = () => {
                     </text>
                 </div>
                 <div ref={ref1} className='body-section'>
-                    <div style={{fontSize: "45px"}}>
+                    <div style={{fontSize: "45px", color: "#FFFF02"}}>
                         1. About me
                     </div>
-                    <div style={{display: "flex", marginTop: "30px", fontSize: "20px"}}>
-                        <div style={{marginRight: "15px"}}>
+                    <div style={{display: "flex", marginTop: "30px", fontSize: "20px", justifyContent: "center"}}>
+                        <div style={{marginRight: "15px", width: "50%"}}>
                             Software Engineer with a love for building full stack applications.
 
                             My current project Wanderer <br/> is an AirBnB inspired application where I am exploring the Google Maps API
@@ -136,7 +136,7 @@ const NavBar = () => {
                     </div>
                 </div>
                 <div ref={ref2} className='body-section'>
-                    <div style={{fontSize: "45px"}}>
+                    <div style={{fontSize: "45px", color: "#FFFF02"}}>
                         2. Skills
                     </div>
                     <div className='technologies-container'>
@@ -179,17 +179,22 @@ const NavBar = () => {
                     </div>
                 </div>
                 <div ref={ref3} className='body-section'>
-                    <div style={{fontSize: "45px"}}>
+                    <div style={{fontSize: "45px", color: "#FFFF02"}}>
                         3. Projects
+                    </div>
+                    <div className='projects-container'>
+                        <div><a href="https://wanderer-py.herokuapp.com">hi</a>hi</div>
+                        <div></div>
+                        <div></div>
                     </div>
                 </div>
                 <div ref={ref4} className='body-section'>
-                    <div style={{fontSize: "45px"}}>
+                    <div style={{fontSize: "45px", color: "#FFFF02"}}>
                         4. Music
                     </div>
                 </div>
                 <div ref={ref5} className='body-section'>
-                    <div style={{fontSize: "45px"}}>
+                    <div style={{fontSize: "45px", color: "#FFFF02"}}>
                         5. Contact Me
                     </div>
                 </div>
