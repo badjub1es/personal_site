@@ -60,6 +60,10 @@ const NavBar = () => {
                 </div>
             </div>
             <div className='body-container'>
+                <b></b>
+                <b className='ball2'></b>
+                <b className='ball3'></b>
+                <b className='ball4'></b>
                 <div className='sidebar'>
                     <img
                         alt="github"
