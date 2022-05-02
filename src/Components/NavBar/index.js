@@ -218,9 +218,15 @@ const NavBar = () => {
                     </div>
                 </div>
                 <div ref={ref5} className='body-section'>
-                    <div style={{fontSize: "45px", color: "#FFFF02"}}>
-                        5. Contact Me
+                    <div style={{fontSize: "45px", color: "#FFFF02", marginBottom: "30px"}}>
+                        5. Contact
                     </div>
+                    <div
+                        style={{ cursor: "pointer", fontSize: "30px" }}
+                        onClick={() => window.open('mailto:theanthonyarellano@gmail.com')}> {'>'} Email me</div>
+                    <div
+                        style={{ fontSize: "30px" }}
+                        >{'> Call : 201-686-4015'}</div>
                 </div>
             </div>
         </div>
