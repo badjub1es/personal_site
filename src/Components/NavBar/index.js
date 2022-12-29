@@ -53,7 +53,7 @@ const NavBar = () => {
                         onClick={() => ref5.current.scrollIntoView()}
                         className='link fade-in5'>5.Contact // </div>
                     <div className='link fade-in6'>
-                        <a href='https://tonesbucket.s3.amazonaws.com/Arellano+Anthony+Resume.pdf' download target={'_blank'}>
+                        <a href='https://tonesbucket.s3.amazonaws.com/Updates+Anthony+Resume.pdf' download target={'_blank'}>
                             6.Resume
                         </a>
                     </div>
