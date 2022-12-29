@@ -200,12 +200,12 @@ const NavBar = () => {
                             description={"Gathering inspiration from Spotify and Soundcloud, Soundgarden is a music playing application aimed at promoting aspiring local artists."}
                             url={"https://sound-garden.herokuapp.com"}
                             repo={"https://github.com/badjub1es/SoundGarden"}/>
-                        <ProjectCard
+                        {/* <ProjectCard
                             title={"QuickStarter"}
                             img={"https://tonesbucket.s3.amazonaws.com/Capture3.PNG"}
                             description={"A full-stack Kickstarter clone built with React, Redux, Flask, SQLAlchemy, and postgreSQL."}
                             url={"https://quickstarter-314.herokuapp.com"}
-                            repo={"https://github.com/iedwards314/QuickStarter"}/>
+                            repo={"https://github.com/iedwards314/QuickStarter"}/> */}
                     </div>
                 </div>
                 <div ref={ref4} className='body-section'>
