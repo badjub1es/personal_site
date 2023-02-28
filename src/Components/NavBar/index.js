@@ -128,8 +128,11 @@ const NavBar = () => {
                         <div style={{marginRight: "15px", width: "50%"}}>
                             Software Engineer with a love for building full stack applications.
 
-                            My current project Wanderer <br/> is an AirBnB inspired application where I am exploring the Google Maps API
-                            in order to  <br/> provide easy location validation as well as display a visually compelling interface to the user. <br/> <br/>
+                            Currently I work at Peloton Interactive, providing robust content production tooling to internal employees. My main contribution
+                            has been the design of a micro frontend React / Typescript web application, facilitated via Webpack Module Federation. My work
+                            lives at the intersection of pristine functionality and stunning user interfaces. <br/> <br/>
+                            {/* My current project Wanderer <br/> is an AirBnB inspired application where I am exploring the Google Maps API
+                            in order to  <br/> provide easy location validation as well as display a visually compelling interface to the user. <br/> <br/> */}
 
                             In my free time I am the main song-writer, singer, and rhythm guitar player for my band Coco Blue. <br/>
                             We've recently released our first single "Wash" and are actively working towards recording our next <br/>
