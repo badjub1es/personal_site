@@ -3,6 +3,18 @@ import Typewriter from 'typewriter-effect'
 import './style/navbar.css';
 import './style/body.css';
 import ProjectCard from '../ProjectCard';
+import HTML5SVG from './style/images/html5.svg'
+import TypescriptSVG from './style/images/typescript.svg';
+import ReactSVG from './style/images/reactjs.svg';
+import ReduxSVG from './style/images/redux.svg';
+import CSS3SVG from './style/images/css.svg';
+import NodeJSSVG from './style/images/nodejs.svg';
+import FlaskSVG from './style/images/flask.svg';
+import PostGresSVG from './style/images/postfresql.svg';
+import PythonSVG from './style/images/python.svg';
+import DockerSVG from './style/images/docker.svg';
+import MaterialSVG from './style/images/material-ui.svg';
+import HerokuSVG from './style/images/heroku.svg';
 
 
 const NavBar = () => {
@@ -146,40 +158,52 @@ const NavBar = () => {
                     </div>
                     <div className='technologies-container'>
                         <div className='tech-card'>
-                            <img alt="js" className='tech-image' src={require('./style/images/js.png')}/>
-                            <div>Javascript</div>
+                            <img alt="js" className='tech-image' src={TypescriptSVG}/>
+                            <div>Typescript</div>
                         </div>
                         <div className='tech-card'>
-                            <img alt="react" className='tech-image' src={require('./style/images/react.png')}/>
+                            <img alt="react" className='tech-image' src={ReactSVG}/>
                             <div>React</div>
                         </div>
                         <div className='tech-card'>
-                            <img alt="redux" className='tech-image' src={require('./style/images/redux.png')}/>
+                            <img alt="redux" className='tech-image' src={ReduxSVG}/>
                             <div>Redux</div>
                         </div>
                         <div className='tech-card'>
-                            <img alt="html5" className='tech-image' src={require('./style/images/html.png')}/>
+                            <img alt="html5" className='tech-image' src={HTML5SVG}/>
                             <div>HTML5</div>
                         </div>
                         <div className='tech-card'>
-                            <img alt="css3" className='tech-image' src={require('./style/images/css.png')}/>
+                            <img alt="css3" className='tech-image' src={CSS3SVG}/>
                             <div>CSS3</div>
                         </div>
                         <div className='tech-card'>
-                            <img alt="express" className='tech-image' src={require('./style/images/express.png')}/>
-                            <div>Express.js</div>
+                            <img alt="express" className='tech-image' src={NodeJSSVG}/>
+                            <div>Node.js</div>
                         </div>
                         <div className='tech-card'>
-                            <img alt="flask" className='tech-image' src={require('./style/images/flask.png')}/>
+                            <img alt="flask" className='tech-image' src={FlaskSVG}/>
                             <div>Flask</div>
                         </div>
                         <div className='tech-card'>
-                            <img alt="psql" className='tech-image' src={require('./style/images/postgres.png')}/>
+                            <img alt="psql" className='tech-image' src={PostGresSVG}/>
                             <div>postgreSQL</div>
                         </div>
                         <div className='tech-card'>
-                            <img alt="python" className='tech-image' src={require('./style/images/py.png')}/>
+                            <img alt="python" className='tech-image' src={PythonSVG}/>
                             <div>Python</div>
+                        </div>
+                        <div className='tech-card'>
+                            <img alt="docker" className='tech-image' src={DockerSVG}/>
+                            <div>Docker</div>
+                        </div>
+                        <div className='tech-card'>
+                            <img alt="material-ui" className='tech-image' src={MaterialSVG}/>
+                            <div>Material UI</div>
+                        </div>
+                        <div className='tech-card'>
+                            <img alt="heroku" className='tech-image' src={HerokuSVG}/>
+                            <div>Heroku</div>
                         </div>
                     </div>
                 </div>
