@@ -10,7 +10,7 @@
     font-family: "PixelColeco";
     width: 80%;
     border-bottom: 1px dotted #FFFF02;
-
+  overflow: hidden;
 }
 
 .hidden {
@@ -19,8 +19,8 @@
 
 .technologies-container {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: repeat(3, minmax(100px, 15vh));
+    grid-template-rows: auto;
     margin-top: 30px;
     gap: 20px;
 }
@@ -36,6 +36,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(108, 122, 137, .7);
+    padding: 15px;
 }
 
 div b {
